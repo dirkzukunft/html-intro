@@ -5,8 +5,6 @@
 
 body {
   display: grid;
-  grid-template-columns: 20%, auto;
-  grid-template-rows: auto;
   grid-gap: 10%;
 }
 
@@ -30,6 +28,29 @@ nav ul {
 }
 
 nav li {
-  display: grid;
+  list-style-type: none;
   padding: 5px 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+h6 {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+section {
+  background-color: #ddd;
+  margin-bottom: 10px;
+  padding: 0 20px;
+
+  text-align: justify;
+
+  border-style: solid;
+  border-width: 1px 0;
+  border-color: #777;
 }
